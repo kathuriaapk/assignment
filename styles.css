@@ -1,0 +1,35 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .playArea {
+    position: relative;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  
+  .block {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+  }
+  
+  .block:hover {
+    cursor: pointer;
+  }
+  
+  .tableContainer {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .table > tr > th,
+  .table > tr > td {
+    border: 1px solid black;
+  }
+  
